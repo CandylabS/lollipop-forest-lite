@@ -9,4 +9,4 @@ $ npm install -g lite-server
 # To run:
 $ lite-server
 ```
-![demo]https://raw.githubusercontent.com/CandylabS/Lollipop-Forest/master/public/img/screenshots/demo.png
+![demo](https://raw.githubusercontent.com/CandylabS/Lollipop-Forest/master/public/img/screenshots/demo.png)
