@@ -2,21 +2,15 @@
 <html>
 	<head>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-		<script type="text/javascript" src="tmp/paper-dist-paper-full.js"></script>
-		<script type="text/paperscript" src="tmp/merge-myPaper.js" canvas="canvas"></script>
+		<script type="text/javascript" src="tmp/paper-full.min.js"></script>
+		<script type="text/paperscript" src="tmp/myPaper.js" canvas="canvas"></script>
 		<link rel="stylesheet" href="tmp/main.css">
 		<!-- audio -->
 		<script src="https://cdn.rawgit.com/mohayonao/web-audio-api-shim/master/build/web-audio-api-shim.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/1.0.0/fetch.min.js"></script>
-		<script type="text/javascript" src="tmp/merge-myTone.js"></script>
-		<!-- <script type="text/paperscript" src="custom/test.js" canvas="canvas"></script> -->
-		<!-- @{import('light-theme.css')} -->
-		<!-- @{favicon('myFavicon.ico')} -->
+		<script type="text/javascript" src="tmp/myTone.js"></script>
 	</head>
 	<body>
-		<!--     <a href="#" onclick="MODE = 1;">Free</a></br>
-		<a href="#" onclick="MODE = 0;">Default</a> -->
 		<canvas id="canvas" resize stats hidpi="off"></canvas>
-		<!-- @{body} -->
 	</body>
 </html>
